@@ -34,10 +34,6 @@ let jRizz = {
   malibu : 334,
   diapers : 100,
 };
-
-let p = document.creatElement("p");
-let newNode = document.createTextNode(jRizz.electricity);
-p.appendChild(node);
-let div = document.getElementById("demo");
-div.appendChild(p);
+const money = document.querySelector('.money')
+money.textContent = jRizz.electricity;
 // console.log(jRizz.electricity);
